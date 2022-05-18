@@ -194,7 +194,7 @@ async def op(event):
 @client.on(events.NewMessage(pattern="/give"))
 async def op(event):
   if not event.sender_id == ilyass:
-    return await event.reply("@ADWSL")
+    return await event.reply("@MOA_YAD")
   async for x in client.iter_messages("Hajarlx"):
     try:
       await x.forward_to("Hajarlx")
